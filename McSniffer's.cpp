@@ -28,7 +28,8 @@ if (choice == "1") {
   cout << "Please use a Calculator to see how much it is to pay" << endl;
   cout << "Email mcsniffersfastfood@icloud.com to tell your order and cost of your order" << endl; I cout << "Bye and thanks for ordering!" << endl;
 } else {
-    cout << "" << endl;
+    cout << "Oops! this is not a food item, try again" << endl;
+    options();
   }
 }
 
@@ -57,6 +58,7 @@ if (choice == "1") {
   cout << "Please use a Calculator to see how much it is to pay" << endl;
   cout << "Email mcsniffersfastfood@icloud.com to tell your order and cost of your order" << endl; I cout << "Bye and thanks for ordering!" << endl;
 } else {
-    cout << "" << endl;
+    cout << "Oops! this is not a food item, try again" << endl;
+    options();
   }
 }
